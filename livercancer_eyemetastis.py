@@ -35,7 +35,7 @@ map = {'≤400':0,'>400':1}
 AFP_400 =map[AFP_400]
 # 数据读取，特征标注
 #%%load model
-xgb_model = joblib.load('liver_cancer_eye_metas_xgb_model.pkl')
+xgb_model = joblib.load('gbm_model_liver_eye.pkl')
 
 #%%load data
 hp_train = pd.read_csv('github_data.csv')
