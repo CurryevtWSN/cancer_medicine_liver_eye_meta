@@ -14,7 +14,7 @@ st.set_option('deprecation.showPyplotGlobalUse', False)
 
 #%%set title
 st.set_page_config(page_title='Prediction model for Ocular metastasis of hepatocellular carcinoma')
-st.title('Ocular metastasis from primary liver cancer: Machine Learning-Based development and interpretation study')
+st.title('Prediction model of ocular metastasis from primary liver cancer: machine learning-based development and interpretation study')
 
 #%%set variables selection
 st.sidebar.markdown('## Variables')
