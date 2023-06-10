@@ -18,7 +18,7 @@ st.title('Prediction model of ocular metastasis from primary liver cancer: machi
 
 #%%set variables selection
 st.sidebar.markdown('## Variables')
-AFP_400 = st.sidebar.selectbox('AFP_400(μg/L)',('≤400','>400'),index=1)
+AFP_400 = st.sidebar.selectbox('AFP(μg/L)',('≤400','>400'),index=1)
 CEA = st.sidebar.slider("CEA(μg/L)", 0.00, 120.00, value=7.68, step=0.01)
 CA125 = st.sidebar.slider("CA125(μg/L)", 0.00, 500.00, value=30.00, step=0.01)
 CA199 = st.sidebar.slider("CA199(μg/L)", 0.00, 500.00, value=59.61, step=0.01)
